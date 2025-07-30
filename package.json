@@ -1,0 +1,17 @@
+{
+  "name": "qa-selaski",
+  "version": "1.0.0",
+  "description": "Automatización de pruebas Cypress para Selaski",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "npm run cypress:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.3"
+  }
+}
