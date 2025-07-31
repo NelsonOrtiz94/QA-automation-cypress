@@ -1,5 +1,3 @@
-// cypress/support/commands.js
-
 // Comando para autenticar con un PIN dado
 Cypress.Commands.add("loginWithPin", (pin) => {
   // 1. Espera a que el primer dígito esté visible (hasta 10 s)
